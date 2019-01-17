@@ -33,7 +33,7 @@ router.beforeEach((to, from, next) => {
     if (redirectList.includes(to.path)) {
         next('/')
     } else {
-        document.title = to.meta.title && `${to.meta.title} - mmPlayer在线音乐播放器` || 'mmPlayer在线音乐播放器';
+        document.title = to.meta.title && `${to.meta.title} - Ysamaの网易云歌单` || 'Ysamaの网易云歌单';
         next()
     }
 });
@@ -46,10 +46,7 @@ Vue.config.productionTip = isDebug_mode;
 
 // 版权信息
 const pkg = require('../package.json');
-window.mmPlayer = window.mmplayer = `欢迎使用 mmPlayer!
-当前版本为：V${pkg.version}
-作者：茂茂
-Github：https://github.com/maomao1996/Vue-mmPlayer
+window.mmPlayer = window.mmplayer = `Github：https://github.com/maomao1996/Vue-mmPlayer
 歌曲来源于网易云音乐 (http://music.163.com)`;
 console.info(`%c${mmPlayer}`, `color:blue`);
 

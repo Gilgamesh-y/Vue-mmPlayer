@@ -38,7 +38,7 @@
                         {{currentMusic.name}}
                         <span> - {{currentMusic.singer}}</span>
                     </template>
-                    <template v-else>欢迎使用mmPlayer在线音乐播放器</template>
+                    <template v-else>欢迎使用Ysamaの网易云歌单</template>
                 </div>
                 <div class="music-bar-time"
                      v-if="currentMusic.id">{{currentTime | format}}/{{currentMusic.duration | formatDuration}}

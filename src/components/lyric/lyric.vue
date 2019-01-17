@@ -11,7 +11,7 @@
                 <dd>专辑名：{{currentMusic.album}}</dd>
             </template>
             <template v-else>
-                <dd>mmPlayer在线音乐播放器</dd>
+                <dd>Ysamaの网易云歌单</dd>
                 <dd><a class="github" target="_blank" href="https://github.com/maomao1996">茂茂</a></dd>
             </template>
         </dl>

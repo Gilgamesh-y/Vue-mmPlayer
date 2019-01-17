@@ -17,4 +17,4 @@ export const currentMusic = state => {
 //播放历史列表
 export const historyList = state => state.historyList;
 //网易云用户UID
-export const uid = state => state.uid;
+export const uid = state => state.uid || '113236638';

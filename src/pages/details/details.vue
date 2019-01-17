@@ -32,7 +32,7 @@
             .then((res) => {
                 if (res.data.code === 200) {
                     this.list = formatTopSongs(res.data.playlist.tracks);
-                    document.title = `${res.data.playlist.name} - mmPlayer在线音乐播放器`;
+                    document.title = `${res.data.playlist.name} - Ysamaの网易云歌单`;
                     this._hideLoad()
                 }
             })
