@@ -3,7 +3,7 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require('path')
-const isDebug_mode = process.env.NODE_ENV !== 'production';
+const isDebug_mode = false;
 
 module.exports = {
   dev: {
@@ -14,7 +14,7 @@ module.exports = {
     proxyTable: {},
 
     // Various Dev Server settings
-     host: 'localhost', // can be overwritten by process.env.HOST
+     host: '127.0.0.1', // can be overwritten by process.env.HOST
     //   host: '0.0.0.0', // can be overwritten by process.env.HOST
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: true,
@@ -22,7 +22,7 @@ module.exports = {
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
 
-    
+
     /**
      * Source Maps
      */
