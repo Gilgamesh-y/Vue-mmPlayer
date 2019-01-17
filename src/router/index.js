@@ -9,7 +9,7 @@ const routes = [
     }, {
         path: '/music',
         component: () => import('pages/music'),
-        redirect: '/music/playlist',
+        redirect: '/music/userlist',
         children: [
             {
                 path: '/music/playlist',//正在播放列表
