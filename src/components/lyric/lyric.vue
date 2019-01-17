@@ -12,7 +12,6 @@
             </template>
             <template v-else>
                 <dd>Ysamaの网易云歌单</dd>
-                <dd><a class="github" target="_blank" href="https://github.com/maomao1996">茂茂</a></dd>
             </template>
         </dl>
         <!--歌词-->
